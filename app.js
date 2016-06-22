@@ -1,6 +1,4 @@
-/**
- * Created by svelupula16 on 6/21/16.
- */
+
 var webdriver = require("selenium-webdriver"),
     By = webdriver.By;
 var chrome = require('selenium-webdriver/chrome');
