@@ -39,6 +39,8 @@ module.exports = {
         driver = new webdriver.Builder().forBrowser('chrome').withCapabilities(chromeCapabilities).build();
         driver.manage().timeouts().implicitlyWait(config.elementTimeout || 3000);
         driver.manage().window().maximize();
+
+        return driver;
     },
 
     saveScreenshot: function (name) {
@@ -78,15 +80,28 @@ module.exports = {
 
     },
 
-    cleanURL: function(url) {
+    useHttpURL: function(url) {
         if(url.toLowerCase().indexOf('https://') >= 0)
         {
             url = url.splice(8);
         }
         if(url.toLowerCase().indexOf('http://') < 0)
         {
-            url += 'http://';
+            url = 'http://' + url;
         }
+        return url;
+    },
+
+    useHttpsUrl: function(url) {
+        if(url.toLowerCase().indexOf('http://') >= 0)
+        {
+            url = url.splice(7);
+        }
+        if(url.toLowerCase().indexOf('https://') < 0)
+        {
+            url = 'https://' + url;
+        }
+        return url;
     }
 
 }

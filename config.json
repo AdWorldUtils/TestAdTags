@@ -1,5 +1,6 @@
 {
   "harnessPageURL": "http://dev.hq.adap.tv/adclient/harness/?autostart=1&tab=vast_adaptv_flash",
+  "googleVASTInspector": "https://developers.google.com/interactive-media-ads/docs/sdks/flash/vastinspector",
   "adTag": "ads.adaptv.advertising.com/a/h/PtfytGA0Yf9nJzcgxDVnQkOBFiEjxV+F?cb=[CACHE_BREAKER]&pet=preroll&pageUrl=test15571.com&eov=eov&cowboy=1&ocb=784389",
   "adMinutes": 2,
   "resultsDir": "results",
