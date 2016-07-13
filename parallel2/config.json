@@ -1,0 +1,8 @@
+{
+  "harnessPageURL": "http://dev.hq.adap.tv/adclient/harness/?autostart=1&tab=vast_adaptv_flash",
+  "adTag": "redir.adap.tv/test-vast.xml",
+  "googleVASTInspector": "https://developers.google.com/interactive-media-ads/docs/sdks/flash/vastinspector",
+  "adMinutes": 2,
+  "resultsDir": "results",
+  "elementTimeout": 5000
+}

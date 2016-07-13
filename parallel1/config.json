@@ -1,0 +1,8 @@
+{
+  "harnessPageURL": "http://dev.hq.adap.tv/adclient/harness/?autostart=1&tab=vast_adaptv_flash",
+  "adTag": "ads.adaptv.advertising.com/a/h/WuipbaNL_wYBSFY8UN+WMaDrdJaixbMD?cb=898570262&pageUrl=msn.com&eov=eov&categories=188286____1160877____MSVATO&UnqiueRequestGroupId=14488900&context=transId%3D1467003401300590001%2Cmarkettype%3DA9%2Cexternalid%3DMSVATO",
+  "googleVASTInspector": "https://developers.google.com/interactive-media-ads/docs/sdks/flash/vastinspector",
+  "adMinutes": 0.6,
+  "resultsDir": "results",
+  "elementTimeout": 5000
+}
