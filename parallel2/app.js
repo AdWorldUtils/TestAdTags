@@ -10,7 +10,7 @@ util1.openBrowser(function(err, result) {
             if(result) { console.log('Non Secure ad is success'); }
         });
 
-        setTimeout(function() {
+        setInterval(function() {
             util1.executeAd(false, function(err, result){
                 console.log('Non Secure ad is completed');
                 if(result) { console.log('Non 0.' +
