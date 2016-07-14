@@ -1,4 +1,4 @@
-var AdSession = require('./util');
+var AdSession = require('./../util');
 
 var util1 = new AdSession();
 
