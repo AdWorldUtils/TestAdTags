@@ -47,13 +47,7 @@ function AdSession() {
         var logging_prefs = new webdriver.logging.Preferences();
         logging_prefs.setLevel(webdriver.logging.Type.PERFORMANCE, webdriver.logging.Level.ALL);
         options.setLoggingPrefs(logging_prefs);
-        options.addArguments("--no-experiments");
-        options.addArguments("--disable-translate");
-        options.addArguments("--disable-plugins");
-        options.addArguments("--disable-extensions");
         options.addArguments("--no-default-browser-check");
-        options.addArguments("--clear-token-service");
-        options.addArguments("--disable-default-apps");
         options.addArguments("--enable-logging");
         options.addArguments("--test-type");
 
