@@ -46,10 +46,8 @@ function AdSession() {
         var options = new chrome.Options();
         var logging_prefs = new webdriver.logging.Preferences();
         logging_prefs.setLevel(webdriver.logging.Type.PERFORMANCE, webdriver.logging.Level.ALL);
-        options.setLoggingPrefs(logging_prefs);
-        options.addArguments("--no-default-browser-check");
-        options.addArguments("--enable-logging");
-        options.addArguments("--test-type");
+
+        
 
         var chromeCapabilities = options.toCapabilities();
         driver = new webdriver.Builder().forBrowser('chrome').withCapabilities(chromeCapabilities).build();

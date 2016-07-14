@@ -108,9 +108,10 @@ function AdSession() {
             var ts = simpleTimestamp();
             driver.get(config.googleVASTInspector);
             this.savePerfLog(ts);
-            driver.quit().then(function() {
+            callback(null, true);
+            /*driver.quit().then(function() {
                 callback(null, true);
-            });
+            });*/
         }
     }
 
